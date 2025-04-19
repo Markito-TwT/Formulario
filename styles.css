@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(0, 0, 0);
+
+}body{
+    background-color: rgb(0, 0, 0);
+
+}
+.text{
+   color: aliceblue;
+}
+.button{
+    color: #fff;
+}
+.botao {
+    background-color: rgb(0, 64, 116); /* Cor de fundo */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Exibe o botão como um bloco inline */
+    font-size: 16px; /* Tamanho da fonte */
+    border-radius: 8px; /* Borda arredondada */
+    border: none; /* Remove a borda padrão */
+    transition: background-color 0.3s, transform 0.2s; /* Efeito de transição */
+}
+
+.botao:hover {
+    background-color: #ffffff; /* Cor de fundo ao passar o mouse */
+    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+}
+
+.botao:active {
+    background-color: #ff0000; /* Cor de fundo ao clicar */
+    transform: scale(1); /* Restaura o tamanho original ao clicar */
+}
